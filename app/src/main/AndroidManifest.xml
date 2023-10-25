@@ -13,6 +13,24 @@
         android:theme="@style/Theme.AndroidLaunchModes"
         tools:targetApi="31">
         <activity
+            android:name=".launchactivities.LaunchActivityF"
+            android:exported="false" />
+        <activity
+            android:name=".launchactivities.LaunchActivityE"
+            android:exported="false" />
+        <activity
+            android:name=".launchactivities.LaunchActivityD"
+            android:exported="false" />
+        <activity
+            android:name=".launchactivities.LaunchActivityC"
+            android:exported="false" />
+        <activity
+            android:name=".launchactivities.LaunchActivityB"
+            android:exported="false" />
+        <activity
+            android:name=".launchactivities.LaunchActivityA"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
