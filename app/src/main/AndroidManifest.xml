@@ -13,31 +13,38 @@
         android:theme="@style/Theme.AndroidLaunchModes"
         tools:targetApi="31">
         <activity
-            android:name=".launchactivities.LaunchActivityF"
+            android:name=".launchactivities.ActivityF"
             android:exported="false" />
         <activity
-            android:name=".launchactivities.LaunchActivityE"
+            android:name=".launchactivities.ActivityE"
             android:exported="false" />
         <activity
-            android:name=".launchactivities.LaunchActivityD"
+            android:name=".launchactivities.ActivityD"
             android:exported="false" />
         <activity
-            android:name=".launchactivities.LaunchActivityC"
+            android:name=".launchactivities.ActivityC"
             android:exported="false" />
         <activity
-            android:name=".launchactivities.LaunchActivityB"
+            android:name=".launchactivities.ActivityB"
             android:exported="false" />
         <activity
-            android:name=".launchactivities.LaunchActivityA"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".launchactivities.ActivityA"
+            android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
     </application>
 

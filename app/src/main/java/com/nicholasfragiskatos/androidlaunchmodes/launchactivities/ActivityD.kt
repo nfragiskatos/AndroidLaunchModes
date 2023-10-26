@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.nicholasfragiskatos.androidlaunchmodes.R
 
-class LaunchActivityF : AppCompatActivity() {
+class ActivityD : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_launch_f)
+        setContentView(R.layout.activity_d)
     }
 }

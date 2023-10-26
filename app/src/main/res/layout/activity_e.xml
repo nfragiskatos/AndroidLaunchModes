@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".launchactivities.LaunchActivityB">
+    tools:context=".launchactivities.ActivityE">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Activity B"
+        android:text="Activity E"
         android:textSize="36sp"
         />
 
