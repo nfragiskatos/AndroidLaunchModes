@@ -12,6 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:background="#1F7C33"
+        android:textColor="@color/white"
+        android:layout_marginBottom="64dp"
         android:text="Activity C"
         android:textSize="36sp"
         />
