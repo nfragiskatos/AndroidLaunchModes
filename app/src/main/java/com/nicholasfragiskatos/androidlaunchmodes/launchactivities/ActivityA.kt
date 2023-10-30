@@ -1,7 +1,9 @@
 package com.nicholasfragiskatos.androidlaunchmodes.launchactivities
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.nicholasfragiskatos.androidlaunchmodes.databinding.ActivityABinding
 
 class ActivityA : AppCompatActivity() {
@@ -35,5 +37,14 @@ class ActivityA : AppCompatActivity() {
         binding.launchActivityF.setOnClickListener {
             startActivity(this, ActivityF::class.java)
         }
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        Toast.makeText(
+            this,
+            "onNewIntent called for Activity A",
+            Toast.LENGTH_LONG,
+        ).show()
     }
 }

@@ -17,6 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".launchactivities.ActivityE"
+            android:launchMode="singleTop"
             android:exported="false" />
         <activity
             android:name=".launchactivities.ActivityD"
