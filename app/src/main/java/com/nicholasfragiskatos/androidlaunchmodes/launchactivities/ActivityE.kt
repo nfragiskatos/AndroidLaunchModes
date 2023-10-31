@@ -44,7 +44,7 @@ class ActivityE : AppCompatActivity() {
         Toast.makeText(
             this,
             "onNewIntent called for Activity E",
-            Toast.LENGTH_LONG,
+            Toast.LENGTH_LONG
         ).show()
     }
 }
